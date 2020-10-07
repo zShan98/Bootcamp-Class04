@@ -33,11 +33,13 @@ jobs:
           cmd: install
           
           
-          name: updating autopixer
-          run: npx browserslist@latest --update-db
+          
+          
           
       - name: build react app
-        run: yarn build
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: build # will run `yarn build` command
         
       - name: install surge
         run: npm install --global surge
