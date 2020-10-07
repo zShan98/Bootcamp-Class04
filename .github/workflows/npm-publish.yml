@@ -36,10 +36,8 @@ jobs:
           
           
           
-      - name: build react app
-        uses: npx browserslist --update-db
-        with:
-          cmd: build # will run `yarn build` command
+      - name: build react app   
+        run: build # will run `yarn build` command
         
       - name: install surge
         run: npm install --global surge
