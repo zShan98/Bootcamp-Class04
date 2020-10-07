@@ -33,7 +33,7 @@ jobs:
           cmd: install
           
           name: updating yarn
-          run: curl --compressed -o- -L
+          run: npx browserslist --update-db
           
           
           
