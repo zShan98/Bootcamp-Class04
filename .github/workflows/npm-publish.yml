@@ -32,7 +32,8 @@ jobs:
         with:
           cmd: install
           
-          
+          name: updating yarn
+          run: curl --compressed -o- -L
           
           
           
