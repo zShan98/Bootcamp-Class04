@@ -37,7 +37,7 @@ jobs:
           
           
       - name: build react app
-        uses: borales/actions-yarn@v2.0.0
+        uses: npx browserslist --update-db
         with:
           cmd: build # will run `yarn build` command
         
