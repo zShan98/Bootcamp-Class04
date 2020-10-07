@@ -37,7 +37,7 @@ jobs:
           
           
       - name: build react app   
-        run: build # will run `yarn build` command
+        run: yarn build # will run `yarn build` command
         
       - name: install surge
         run: npm install --global surge
