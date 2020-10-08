@@ -34,7 +34,7 @@ jobs:
         
         
       - name: updating autopixer
-        run: npx browserslist@latest --update-db
+        run: sudo npx browserslist@latest --update-db
           
       - name: build react app   
         run: yarn build # will run `yarn build` command
