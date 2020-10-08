@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import Room from './Room';
 function App() {
   return(
