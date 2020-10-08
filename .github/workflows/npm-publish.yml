@@ -31,6 +31,10 @@ jobs:
       - uses: borales/actions-yarn@v2.0.0
         with:
           cmd: install
+        
+        
+      - name: updating autopixer
+        run: npx browserslist@latest --update-db
           
       - name: build react app   
         run: yarn build # will run `yarn build` command
